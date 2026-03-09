@@ -1,0 +1,38 @@
+.quiz {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background: #3498db;
+  color: white;
+}
+
+.button:hover {
+  background: #2980b9;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}

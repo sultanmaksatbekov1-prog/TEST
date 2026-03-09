@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Quiz.module.css";
 
 function Quiz({ question, answers, correctAnswer }) {
   const [result, setResult] = useState("");
